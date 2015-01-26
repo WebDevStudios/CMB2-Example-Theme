@@ -1,0 +1,41 @@
+/**
+ * Theme Name: CMB2 Example Theme
+ * Theme URI: https://github.com/WebDevStudios/CMB2-Example-Theme
+ * Author: WebDevStudios
+ * Author URI: http://webdevstudios.com/
+ * Description: An example of how to use CMB2 in your WordPress themes.
+ * Version: 1.0
+ * License: GNU General Public License v2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain: cmb2-example-theme
+ **/
+
+#logo {
+	height: 100px;
+	width: auto;
+}
+
+#page {
+	margin: 0 auto;
+}
+
+.footer-widget-area {
+	float: left;
+}
+
+/**
+ * Thanks: http://nicolasgallagher.com/micro-clearfix-hack/
+ */
+.cf:before,
+.cf:after {
+	content: " "; /* 1 */
+	display: table; /* 2 */
+}
+
+.cf:after {
+	clear: both;
+}
+
+.cf {
+	*zoom: 1;
+}
